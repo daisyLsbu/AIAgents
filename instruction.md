@@ -12,7 +12,7 @@ python.exe -m pip install --upgrade pip
 # make sure a model is pulled (skip if you already have one)
 ollama pull llama3.1:8b
 # run the agent 
-python agent.py
+python agent_standalone.py
 # further Agent command
 python agent.py --reset : clear memory 
 --model <tag> to use a different pulled model.
